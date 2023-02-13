@@ -23,15 +23,7 @@ public class TarjetaVO {
     private String cliente;
     private String numeroDocumento;
 
-    public TarjetaVO(String numeroTarjeta, String tipoTarjeta, LocalDate fechaVencimiento, Long codigoValidacion, LocalDate fechaCorte, LocalDate fechaLimitePagoMens, BigDecimal saldoActual, BigDecimal limiteCredito) {
-        this.numeroTarjeta = numeroTarjeta;
-        this.tipoTarjeta = tipoTarjeta;
-        this.fechaVencimiento = fechaVencimiento;
-        this.codigoValidacion = codigoValidacion;
-        this.fechaCorte = fechaCorte;
-        this.fechaLimitePagoMens = fechaLimitePagoMens;
-        this.saldoActual = saldoActual;
-        this.limiteCredito = limiteCredito;
+    public TarjetaVO() {
     }
 
     public String getNumeroTarjeta() {
